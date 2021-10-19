@@ -1,0 +1,320 @@
+body{
+    font-size: 17px;
+    font-family:cursive;
+    background-color:darkturquoise;
+    
+}
+
+.container{
+max-width: 90%;
+margin:  auto;
+background: url(blue-material-design-tekstura-fon-linii-background.jpg);
+
+
+
+
+
+}
+/*menu*/
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    max-width: 680px;
+    margin: auto;
+   
+    
+}
+
+
+.nav{
+    
+    
+    background-color: cadetblue;
+    overflow: hidden; 
+    position:static;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.nav ul a{
+    
+    text-decoration: none;
+    padding: 20px;
+    border-left: 2px solid black;
+    color: white;
+    display: block;
+    white-space: nowrap;
+    background-color: cadetblue;
+    border-radius: 3px;
+    transition: all 0.5s;
+   
+}
+
+.nav ul a:hover{
+    color: black;
+    background-color: blanchedalmond;
+    transition: all 0.8s;
+    
+}
+
+
+.nav li ul {
+    
+    position: absolute;
+    padding: 0;
+ display: none;
+    min-width: 150px;
+    
+    
+}
+
+.nav li > ul li ul{
+    position: absolute;
+    right: -150px;
+   padding: 0;
+   top: 90px;
+   
+}
+.nav li:hover > ul{
+    display: block;  
+}
+/*logo*/
+
+.logo{
+    background: rgb(60, 83, 124);
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+       margin: auto;
+        font-size: 50px;
+        width: 500px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        }
+
+/*tarifs*/
+
+.info{
+
+    display: flex;
+    color: white;
+    margin-bottom: 60px;
+    
+}
+
+.info div{
+   border-right: solid 5px black;
+    box-shadow:5px 0px 28px black;
+    width: 30%;
+    margin: auto;
+    background:url(666.jpg) ;
+    
+    
+    
+    
+}
+.info div span{
+    font-size: 50px;
+    margin: auto;
+    display: block;
+    text-align: center;
+   
+}
+
+.info ul{
+    float: left;
+    margin: 10px;
+    padding-left: 15;
+}
+
+.info div ul li{
+list-style: none;
+font-size: 40px;
+display: block;
+}
+.info div ul li a{
+    
+    text-decoration: none;
+    color: tomato;
+    transition: all 0.7s;
+}
+.info div ul li a:hover{
+    color: black;
+    background: rgb(133, 105, 105);
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+/*products*/
+.products{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.products div{
+    
+    width: 29%;
+    margin: auto;
+    border-radius: 40px;
+    
+    
+}
+
+.products div img{
+    border-radius: 30px;
+ 
+}
+
+/*about html*/
+
+.inform{
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+  
+}
+.products div ul{
+    display: block;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.products div ul li:hover{
+background: cornflowerblue;
+transition: all 0.5s;
+color: black;
+}
+.item li{
+    padding: 10px;
+}
+
+.item{
+    background-color: rgb(42, 120, 165);
+}
+.item a{
+   
+    color:black;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: inherit;
+    padding: 5px;
+  
+}
+.item a:hover{
+  color: white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+}
+
+.footer p{
+    
+    
+    padding: 147px 0px 0px 20px;
+}
+.contact{
+    width: 50%;
+    padding: -300px;
+    margin: auto;
+    display: flex;
+}
+
+.contact a{
+    color: white;
+}
+/*login*/
+
+.log{
+    border-radius: 13px;
+    text-align: center;
+    width: 40%;
+    height: 60%;
+    padding: 50px 20px 50px 20px;
+    margin: auto;
+    background:url(Download.png);
+    margin-top: 200px;
+    margin-bottom: 400px;
+
+
+}
+
+.form{
+
+    color: black;
+    font-size: 25px;
+    display: block;
+}
+    input{
+        border-style:groove;
+        background: transparent;
+          font-size: 20px;
+          outline: none;
+          padding: 5px;
+          border-radius: 7px;
+          color: white;
+    }
+
+    .login{
+        font-size: 34px;
+        cursor: pointer;
+        transition: all 0.5s;
+        border: none;
+    }
+
+    .login:hover{
+        background-color: rgb(2, 2, 2);
+        color: white;
+        transition: all 0.5s;
+       
+    }
+    .order{
+        width: 200px;
+        font-size: 30px;
+        padding: 20px;
+        background:transparent
+        color: black;
+        transition: all 0.5s;
+        border: none;
+    }
+    .order:hover{
+        background-color: rgb(2, 2, 2);
+        color: white;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .ord{
+        border-radius: 13px;
+    text-align: center;
+    width: 40%;
+    height: 60%;
+    padding: 50px 20px 50px 20px;
+    margin: auto;
+    background:url(Wallpaper\ for\ iPhone.jpg);
+    margin-top: 200px;
+    margin-bottom: 400px;
+    }
+    select{
+        background-color:springgreen;
+        font-size: 21px;
+        padding: 12px;
+        transition: all 0.5s;
+        text-decoration: none;  
+    }
+    
+    select:hover{
+        transition: all 0.4s;
+        background-color: yellowgreen;
+    }
